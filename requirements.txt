@@ -1,0 +1,12 @@
+gymnasium==1.2.1
+matplotlib==3.10.6
+matplotlib-inline==0.1.7
+numpy==2.2.6
+panda-gym==3.0.7
+pybullet==3.2.7
+rl_zoo3==2.7.0
+stable_baselines3==2.7.0
+tensorboard==2.20.0
+tensorboard-data-server==0.7.2
+tensorflow==2.20.0
+torch==2.8.0

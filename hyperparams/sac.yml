@@ -1,0 +1,30 @@
+PandaPushJoints-v3:
+  n_timesteps: 1000000
+  policy: MultiInputPolicy
+  # replay_buffer_class: HerReplayBuffer
+  # replay_buffer_kwargs: "dict(
+  #   goal_selection_strategy='future',
+  #   n_sampled_goal=4
+  # )"
+  train_freq: [1, 'episode']
+  gradient_steps: -1
+  normalize: "{'norm_obs': True, 'norm_reward': False}"
+  gamma: 0.95
+  batch_size: 256
+  learning_rate: 0.0003
+  tau: 0.005
+  policy_kwargs:
+    net_arch: [256, 256]
+
+PandaPushJointsDense-v3:
+  n_timesteps: 1000000
+  policy: MultiInputPolicy
+  train_freq: [1, 'episode']
+  gradient_steps: -1
+  normalize: True
+  gamma: 0.95
+  batch_size: 256
+  learning_rate: 0.0003
+  tau: 0.005
+  policy_kwargs:
+    net_arch: [256, 256]

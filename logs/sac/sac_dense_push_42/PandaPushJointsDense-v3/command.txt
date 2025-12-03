@@ -1,0 +1,1 @@
+C:\Users\chang\AppData\Local\Microsoft\WindowsApps\PythonSoftwareFoundation.Python.3.11_qbz5n2kfra8p0\python.exe -m rl_zoo3.train --algo sac --env PandaPushJointsDense-v3 -n 1000000 --eval-freq 25000 --eval-episodes 20 --n-eval-envs 1 --save-freq 100000 -f logs/ --seed 42 -conf hps/sac.yml

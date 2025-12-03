@@ -1,0 +1,17 @@
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+__pycache__/
+
+venv/
+
+/resource
+playground.py
+
+*.csv
+
+*.zip
+!**/best_model.zip
+
+*.pkl
+!rl_model_vecnormalize_*_steps.pkl
